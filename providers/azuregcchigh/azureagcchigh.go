@@ -15,7 +15,7 @@ import (
 const (
 	authURLTemplate  string = "https://login.microsoftonline.us/%s/oauth2/v2.0/authorize"
 	tokenURLTemplate string = "https://login.microsoftonline.us/%s/oauth2/v2.0/token"
-	graphAPIResource string = "https://graph.microsoft.com/v1.0/"
+	graphAPIResource string = "https://graph.microsoft.us/v1.0/"
 )
 
 type (
