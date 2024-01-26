@@ -66,7 +66,7 @@ func New(clientKey, secret, callbackURL string, opts ProviderOptions) *Provider 
 		ClientKey:    clientKey,
 		Secret:       secret,
 		CallbackURL:  callbackURL,
-		providerName: "azureagcchigh",
+		providerName: "azuregcchigh",
 	}
 
 	p.config = newConfig(p, opts)
